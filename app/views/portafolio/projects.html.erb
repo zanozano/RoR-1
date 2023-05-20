@@ -1,28 +1,34 @@
 <h1 class="text-center mb-4">Projects</h1>
 
-<div class="container d-flex flex-column align-items-center flex-md-row justify-content-md-evenly">
-    <div class="card  mb-3" style="width: 18rem;">
-    <img src="..." class="card-img-top" alt="...">
+<div class="container d-flex flex-column align-items-center flex-md-row justify-content-md-evenly align-items-md-start">
+    <div class="card mb-3 shadow" style="width: 18rem;">
+    <%= image_tag 'simple_calculator.png', alt: 'Calculadora en React', class: 'img-responsive' %>
     <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <%= link_to "Ver más", root_path, class: "btn btn-primary" %>
+        <h5 class="card-title">Simple React Calculator</h5>
+        <p class="card-text">      
+Este es un proyecto realizado como ejercicio para obtener una certificación en un curso básico de React.
+        </p>
+        <%= link_to "Ver más", "https://calculator-5c753.web.app/", class: "btn btn-primary" %>
     </div>
     </div>
-    <div class="card" style="width: 18rem;">
-    <img src="..." class="card-img-top" alt="...">
+    <div class="card mb-3 shadow" style="width: 18rem;">
+    <%= image_tag 'todo-list.png', alt: 'ToDo List en React', class: 'img-responsive' %>
     <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <%= link_to "Ver más", root_path, class: "btn btn-primary" %>
+        <h5 class="card-title">ToDo List en React</h5>
+        <p class="card-text">
+ Este proyecto consistió en la creación de una aplicación de lista de tareas (ToDo list) utilizando React como base. Fue diseñado como un ejercicio para practicar y comprender el ciclo de vida de los componentes en React.
+        </p>
+        <%= link_to "Ver más", "https://zano-react-todo.web.app/", class: "btn btn-primary" %>
     </div>
     </div>
-    <div class="card" style="width: 18rem;">
-    <img src="..." class="card-img-top" alt="...">
+    <div class="card mb-3 shadow" style="width: 18rem;">
+    <%= image_tag 'portafolio-personal.png', alt: 'Portafolio Personal de productos', class: 'img-responsive' %>
     <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <%= link_to "Ver más", root_path, class: "btn btn-primary" %>
+        <h5 class="card-title">Portafolio Personal</h5>
+        <p class="card-text">
+    Mi portafolio personal se encuentra actualmente en desarrollo, ya que por falta de tiempo no he podido completarlo. Sin embargo, en un futuro próximo, tengo la intención de finalizarlo y convertirlo en una agencia digital.
+        </p>
+        <%= link_to "Ver más", "https://portfolio2023-b9a66.web.app/", class: "btn btn-primary" %>
     </div>
     </div>
 </div>
